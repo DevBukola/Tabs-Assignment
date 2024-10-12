@@ -79,8 +79,9 @@ allTabs.forEach((child) => {
   });
 });
 
-const inputBox = inputField.value;
+
 callerIdentity.addEventListener("click", () => {
+  const inputBox = inputField.value;
   console.log('clicked');
   if (inputBox == "") {
     return alert("Input cannot be empty!");
@@ -90,6 +91,7 @@ callerIdentity.addEventListener("click", () => {
             <p class="identity">${inputBox}</p>
             <button class="text-close"><i class="fa-solid fa-x"></i></button>
         </div>`;
+  
 
   inputField.value = "";
 
