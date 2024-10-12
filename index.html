@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="hamburger">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </div>
+        <aside class="aside-bar">
+          <div>
+            <div class="workspace">
+                <h4>Workspace</h4>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>General</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-user-friends"></i>
+                    <p>Members</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-id-card"></i>
+                    <p>Groups</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-mobile-alt"></i>
+                    <p>Phone numbers</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <p>Plant & billing</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-shield-alt"></i>
+                    <p>Trust</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-address-book"></i>
+                    <p>Contacts</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-ban"></i>
+                    <p>Blocklist</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-cubes"></i>
+                    <p>Integrations</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-sitemap"></i>
+                    <p>Webhooks</p>
+                </div>
+            </div>
+            <div class="account">
+                <h4>Your account</h4>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Profile</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-sliders"></i>
+                    <p>Preferences</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-volume-up"></i>
+                    <p>Audio settings</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-bell"></i>
+                    <p>Notifications</p>
+                </div>
+                <div class="workspace-icon">
+                    <i class="fa-solid fa-handshake"></i>
+                    <p>Referrals</p>
+                </div>
+            </div>
+          </div>
+          <div class="aside-bar-close">
+            <i class="fa-solid fa-x"></i>
+          </div>
+        </aside>
+        <div class="main-content">
+            <div class="back">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Back to phone numbers</p>
+            </div>
+            <div class="settings">
+                <img src="./assets/image.jpg" alt="">
+                <div class="number">(415) 875-5793</div>
+                <h2 class="name">San Francisco</h2>
+                <p>Manage different settings for this number</p>
+
+                <div class="tabs">
+
+
+                    <div class="tab calls-tab" id="calls">
+                        
+                        <div class="tab-header" data-id="calls" role="button">
+
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <span>Calls</span>
+
+                        </div>
+
+                       <div class="tab-body calls" data-id="calls">
+
+                        <div class="general-wrapper">
+                            <div class="general">
+                                <h2>General</h2>
+                                <p>Manage general call preferences</p>
+                            </div>
+                            <div class="caller-identity">
+                               <div class="name">
+                                   <div class="name-text">
+                                        <h4>Caller ID name</h4>
+                                        <p>Customize what your recepients see when you call.</p>
+                                   </div>
+                                        <button class="caller-id">Add Caller ID name</button>
+                               </div>
+                                        <input class="input" type="text">
+                            </div>
+                            <div class="text">
+                            </div>
+                        </div>
+                        <div class="caller-identity">
+                            <div class="name record">
+                                <div class="name-text">
+                                    <h4>Auto record calls</h4>
+                                    <p>Automatically record calls to this number</p>
+                                </div>
+                                    <label class="switch switch-one">
+                                        <!-- <input type="checkbox" class="toggle"> -->
+                                        <span class="slider slider-one"></span>
+                                    </label>
+                            </div>
+                                <div class="recording-compliant">
+                                    <div class="compliant-rules">
+                                        <h4>Make sure you stay compliant with recording rules in your region.</h4>
+                                    </div>
+                                        <div class="close-compliant"><i class="fa-solid fa-x"></i></div>
+                                </div>
+                                        <input class="input" type="text">
+                            
+                        </div>
+                        <div class="caller-identity">
+                            <div class="name record">
+                                <div class="name-text">
+                                    <h4>International calls and messaging</h4>
+                                    <p>Allow international calling and messaging on this number</p>
+                                </div>
+                                    <label class="switch switch-two">
+                                        <!-- <input type="checkbox" class="toggle"> -->
+                                        <span class="slider slider-two"></span>
+                                    </label>
+                            </div>
+                                <div class="rates-wrapper">
+                                    <div class="compliant-rules rates">
+                                        <h4>Extra charges apply on message sent and on call per minute.</h4>
+                                        <span><a href="">Check rates</a></span>
+                                    </div>
+                                </div>
+                        </div>
+
+                       </div>
+
+
+                    </div>
+
+
+                    <div class="tab message-tab" id="message">
+
+                        <div class="tab-header" data-id="message" role="button">
+
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <span>Message</span>
+
+                        </div>
+
+                        <div class="tab-body message" data-id="message">
+
+                            <div class="message-settings">
+                                <h2>General</h2>
+                                <p>Manage message preferences for this number.</p>
+                            </div>
+                        
+                            <div class="message-notifications">
+                                <div class="name-text">
+                                    <h4>Message notifications</h4>
+                                    <p>Receive notifications for incoming messages.</p>
+                                </div>
+                                <label class="switch">
+                                    <span class="slider slider-message"></span>
+                                </label>
+                            </div>
+                        
+                            <div class="message-signature">
+                                <div class="name-text">
+                                    <h4>Message Signature</h4>
+                                    <p>Automatically append a signature to every message.</p>
+                                </div>
+                                <input class="input" type="text" placeholder="Enter your message signature">
+                            </div>
+
+                        </div>
+                       
+                    </div>
+
+
+                    <div class="tab users-tab" id="user">
+                       
+                        <div class="tab-header" data-id="user" role="button">
+
+                            <span><i class="fa-solid fa-user-friends"></i></span>
+                            <span>Users</span>
+
+                        </div>
+
+                        <div class="tab-body users" data-id="user">
+                            
+                            <div class="user-management">
+                                <h2>Manage Users</h2>
+                                <p>Add, remove, and manage users in your account.</p>
+                            </div>
+                        
+                            <div class="user-roles">
+                                <div class="name-text">
+                                    <h4>User Roles</h4>
+                                    <p>Assign roles and permissions to users.</p>
+                                </div>
+                                <button class="assign-roles">Assign Roles</button>
+                            </div>
+                        
+                            <div class="user-invites">
+                                <div class="name-text">
+                                    <h4>Invite Users</h4>
+                                    <p>Send an invitation to new users.</p>
+                                </div>
+                                <input class="input" type="email" placeholder="Enter email address">
+                                <button class="send-invite">Send Invite</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                    <div class="tab integrations-tab" id="Integrations">
+
+                      <div class="tab-header" data-id="Integrations" role="button">
+
+                            <span><i class="fa-solid fa-cubes"></i></span>
+                            <span>Integrations</span>
+
+                      </div>
+
+                      <div class="tab-body integrations" data-id="integrations">
+                           
+                        <div class="general-wrapper">
+                            <div class="general integration-services">
+                                <h2>Connected services</h2>
+                                <p>Manage integrations with third-party services.</p>
+                            </div>
+                            <div class="caller-identity">
+                               <div class="name add-integration">
+                                   <div class="name-text">
+                                        <h4>Add New Integration</h4>
+                                        <p>Integrate with other tools like CRM, messaging apps, and more.</p>
+                                   </div>
+                                        <button class="caller-id add-integration-button">Add Integration</button>
+                               </div>
+                                        <input class="input" type="text">
+                            </div>
+                            <div class="text">
+                            </div>
+                        </div>
+                        <div class="caller-identity">
+                            <div class="name record manage-integrations">
+                                <div class="name-text">
+                                    <h4>Manage Active Integrations</h4>
+                                    <p>View and manage your active integrations.</p>
+                                </div>
+                                    <label class="switch switch-one">
+                                        <!-- <input type="checkbox" class="toggle"> -->
+                                        <span class="slider slider-one"></span>
+                                    </label>
+                            </div>
+                                <div class="recording-compliant">
+                                    <div class="compliant-rules">
+                                        <h4>Make sure you stay compliant with recording rules in your region.</h4>
+                                    </div>
+                                        <div class="close-compliant"><i class="fa-solid fa-x"></i></div>
+                                </div>
+                                        <input class="input" type="text">
+                            
+                        </div>
+                        <div class="caller-identity">
+                            <div class="name record">
+                                <div class="name-text">
+                                    <h4>International calls and messaging</h4>
+                                    <p>Allow international calling and messaging on this number</p>
+                                </div>
+                                    <label class="switch switch-two">
+                                        <!-- <input type="checkbox" class="toggle"> -->
+                                        <span class="slider slider-two"></span>
+                                    </label>
+                            </div>
+                                <div class="rates-wrapper">
+                                    <div class="compliant-rules rates">
+                                        <h4>Extra charges apply on message sent and on call per minute.</h4>
+                                        <span><a href="">Check rates</a></span>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
